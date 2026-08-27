@@ -360,3 +360,12 @@ Yesの場合、装飾を追加する前に、構成、情報階層、コンテ�
 - Typography / color / spacing / shape direction:
 - Motion / responsive direction:
 - Durable design decisions:
+
+
+## Implementation Notes
+
+- Primary task: 日々の収支をすばやく記録し、月単位の残高と支出の偏りを読む。
+- Layout: Desktopは明細と内訳を左右分割、Mobileは残高→明細→内訳の順に再構成。
+- Visual language: 紙色の背景、濃い青緑の残高面、黄色の小さな気づきメモ。金額と補助情報には等幅のDM Monoを使う。
+- Signature: 「帳簿の見出し」のように扱う大きな残高と、カードに頼らない罫線ベースの明細一覧。
+- Avoided: 汎用SaaSの指標カード群、根拠のないグラデーション、マーケティング用ヒーロー。
